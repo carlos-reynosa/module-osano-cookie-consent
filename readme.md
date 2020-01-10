@@ -1,6 +1,9 @@
-CarlosReynosa OsanoCookieConsent Extension
+CarlosReynosa OsanoCookieConsent Magento 2 Extension
 =====================
 Magento 2 Extension for the Osano Cookie Consent plugin
+
+This Extension is under development. 
+
 Facts
 -----
 - version: 1.0.0
