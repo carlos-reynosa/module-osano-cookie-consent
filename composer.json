@@ -1,0 +1,24 @@
+{
+    "name": "carlos-reynosa/module-osano-cookie-consent",
+    "description": "Magento 2 Extension for the Osano Cookie Consent plugin",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Carlos Reynosa",
+            "email":"creynosa9@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CarlosReynosa\\OsanoCookieConsent\\": ""
+        }
+    }
+}
