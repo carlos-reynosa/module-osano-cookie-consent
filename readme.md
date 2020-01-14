@@ -47,8 +47,9 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Carlos Reynosa
-[https://www.carlos-reynosa.com](https://www.carlos-reynosa.com)
-[@@carlos_reynosa](https://twitter.com/carlos_reynosa)
+
+- Website: [https://www.carlos-reynosa.com](https://www.carlos-reynosa.com)
+- Twitter: [@carlos_reynosa](https://twitter.com/carlos_reynosa)
 
 Licence
 -------
