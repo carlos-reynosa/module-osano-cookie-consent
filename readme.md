@@ -30,15 +30,11 @@ Compatibility
 
 Installation Instructions
 -------------------------
-1. Install the extension via Magento Connect with the key shown above or copy all the files into your document root.
-2. Clear the cache, logout from the admin panel and then login again.
-3. Configure and activate the extension under System - Configuration - Company - Example Extension.
-4. ...
+
 
 Uninstallation
 --------------
-1. Remove all extension files from your Magento installation
-2. ...
+
 
 Support
 -------
@@ -51,8 +47,8 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Carlos Reynosa
-[http://www.firstname-lastname.com](http://www.firstname-lastname.com)
-[@FirstNameLastName](https://twitter.com/FirstNameLastName)
+[https://www.carlos-reynosa.com](https://www.carlos-reynosa.com)
+[@@carlos_reynosa](https://twitter.com/carlos_reynosa)
 
 Licence
 -------
@@ -60,4 +56,4 @@ Licence
 
 Copyright
 ---------
-(c) 2020 CarlosReynosa
+(c) 2020 Carlos Reynosa
