@@ -3,7 +3,7 @@
     "description": "Magento 2 Extension for the Osano Cookie Consent plugin",
     "type": "magento2-module",
     "license": [
-        "proprietary"
+        "MIT License"
     ],
     "authors":[
         {
