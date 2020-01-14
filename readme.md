@@ -44,7 +44,7 @@ Carlos Reynosa
 
 Licence
 -------
-[OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
+[MIT License](https://github.com/carlos-reynosa/module-osano-cookie-consent/blob/master/LICENSE)
 
 Copyright
 ---------
