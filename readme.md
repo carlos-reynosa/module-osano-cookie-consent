@@ -1,8 +1,6 @@
 Osano Cookie Consent Magento 2 Extension
 =====================
-Magento 2 Extension for the Osano Cookie Consent plugin
-
-This Extension is under development. 
+Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www.osano.com/cookieconsent).
 
 Facts
 -----
