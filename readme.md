@@ -8,7 +8,6 @@ Facts
 - Magento Connect 1.0 extension key: magento-community/CarlosReynosa_OsanoCookieConsent
 - Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/CarlosReynosa_OsanoCookieConsent
 - [Extension on GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent)
-- [Direct download link](http://connect.magentocommerce.com/community/get/CarlosReynosa_OsanoCookieConsent-1.0.0.tgz)
 
 Description
 -----------
