@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" src_type="url" rel="stylesheet" type="text/css"  />
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" src_type="url"/>
+    </head>
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template" name="onsano_cookie_consent_init_script" template="CarlosReynosa_OsanoCookieConsent::init.phtml" />
+        </referenceContainer>
+    </body>
+</page>
