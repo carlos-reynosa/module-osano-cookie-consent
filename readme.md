@@ -1,4 +1,4 @@
-CarlosReynosa OsanoCookieConsent Magento 2 Extension
+Osano Cookie Consent Magento 2 Extension
 =====================
 Magento 2 Extension for the Osano Cookie Consent plugin
 
