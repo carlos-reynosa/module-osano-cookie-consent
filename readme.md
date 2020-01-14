@@ -14,7 +14,7 @@ Facts
 
 Description
 -----------
-This paragraph describes what the extension does.
+The Osano Cookie Consent Magento 2 Extension provides a quick and easy way to add a cookie consent popup powered by Osano's Cookie Consent javascript plugin. 
 
 Requirements
 ------------
