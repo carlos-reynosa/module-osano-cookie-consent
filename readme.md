@@ -4,7 +4,7 @@ Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www
 
 Facts
 -----
-- version: 1.0.0
+- version: 1.0.1
 - Magento Connect 1.0 extension key: magento-community/CarlosReynosa_OsanoCookieConsent
 - Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/CarlosReynosa_OsanoCookieConsent
 - [Extension on GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent)
