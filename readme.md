@@ -1,28 +1,21 @@
-CarlosReynosa OsanoCookieConsent Magento 2 Extension
+Osano Cookie Consent Magento 2 Extension
 =====================
-Magento 2 Extension for the Osano Cookie Consent plugin
-
-This Extension is under development. 
+Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www.osano.com/cookieconsent).
 
 Facts
 -----
 - version: 1.0.0
-- extension key: CarlosReynosa_OsanoCookieConsent
-- [extension on Magento Connect](http://www.magentocommerce.com/magento-connect/carlosreynosa)-osanocookieconsent-1234.html)
 - Magento Connect 1.0 extension key: magento-community/CarlosReynosa_OsanoCookieConsent
 - Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/CarlosReynosa_OsanoCookieConsent
-- [extension on GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent)
-- [direct download link](http://connect.magentocommerce.com/community/get/CarlosReynosa_OsanoCookieConsent-1.0.0.tgz)
+- [Extension on GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent)
+- [Direct download link](http://connect.magentocommerce.com/community/get/CarlosReynosa_OsanoCookieConsent-1.0.0.tgz)
 
 Description
 -----------
-This paragraph describes what the extension does.
+The Osano Cookie Consent Magento 2 Extension provides a quick and easy way to add a cookie consent popup powered by Osano's Cookie Consent javascript plugin. 
 
 Requirements
 ------------
-- PHP >= 5.6.0
-- Mage_Core
-- ...
 
 Compatibility
 -------------
@@ -30,15 +23,9 @@ Compatibility
 
 Installation Instructions
 -------------------------
-1. Install the extension via Magento Connect with the key shown above or copy all the files into your document root.
-2. Clear the cache, logout from the admin panel and then login again.
-3. Configure and activate the extension under System - Configuration - Company - Example Extension.
-4. ...
 
 Uninstallation
 --------------
-1. Remove all extension files from your Magento installation
-2. ...
 
 Support
 -------
@@ -51,8 +38,9 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Carlos Reynosa
-[http://www.firstname-lastname.com](http://www.firstname-lastname.com)
-[@FirstNameLastName](https://twitter.com/FirstNameLastName)
+
+- Website: [https://www.carlos-reynosa.com](https://www.carlos-reynosa.com)
+- Twitter: [@carlos_reynosa](https://twitter.com/carlos_reynosa)
 
 Licence
 -------
@@ -60,4 +48,4 @@ Licence
 
 Copyright
 ---------
-(c) 2020 CarlosReynosa
+(c) 2020 Carlos Reynosa
