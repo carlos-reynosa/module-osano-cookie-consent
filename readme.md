@@ -31,6 +31,7 @@ Installation Instructions
 `composer update carlos-reynosa/module-osano-cookie-consent`
 4. Flush caches if needed 
 
+
 Uninstallation
 --------------
 
