@@ -25,10 +25,13 @@ Installation Instructions
 
 1. Add repo to composer.json
 ```composer config repositories.carlos-reynosa.module-osano-cookie-consent vcs https://github.com/carlos-reynosa/module-osano-cookie-consent.git```
+
 2. Require the extension
 `composer require carlos-reynosa/module-osano-cookie-consent`
+
 3. Run Composer Update
 `composer update carlos-reynosa/module-osano-cookie-consent`
+
 4. Flush caches if needed 
 
 
