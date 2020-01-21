@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4]
+- Changed javascript plugin initialization to be initiated by magento component. 
+
 ## [1.0.0-1.0.3]
 ### Added
 - Added feature to automatically initialize OJSP within every page with base default styling. 
