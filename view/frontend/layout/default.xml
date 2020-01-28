@@ -7,7 +7,12 @@
     <body>
         <referenceContainer name="before.body.end">
             <block class="Magento\Framework\View\Element\Template" name="onsano_cookie_consent_init_script"
-                   template="CarlosReynosa_OsanoCookieConsent::init.phtml"/>
+                   template="CarlosReynosa_OsanoCookieConsent::init.phtml">
+                <arguments>
+                    <!-- TODO: add composer framework version requirement 2.1 -->
+                    <argument name="view_model" xsi:type="object">CarlosReynosa\OsanoCookieConsent\Block\Init\Config</argument>
+                </arguments>
+            </block>
         </referenceContainer>
     </body>
 </page>

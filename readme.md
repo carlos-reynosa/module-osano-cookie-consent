@@ -4,8 +4,9 @@ Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www
 
 Facts
 -----
-- version: 1.0.4
-- [Extension on GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent)
+- version: 1.0.5
+- [Extension on GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent)
+- [Download Latest](https://github.com/carlos-reynosa/module-osano-cookie-consent/archive/master.zip)
 
 Description
 -----------
@@ -16,7 +17,7 @@ Requirements
 
 Compatibility
 -------------
-- Magento >= 2.0
+- Magento >= 2.1
 
 Installation Instructions
 -------------------------
@@ -27,7 +28,7 @@ Installation Instructions
 
 2. Require the extension
 
-`composer require carlos-reynosa/module-osano-cookie-consent`
+`composer require carlos-reynosa/module-osano-cookie-consent:1.0.5`
 
 3. Run Composer Update
 
@@ -35,17 +36,22 @@ Installation Instructions
 
 4. Flush caches if needed 
 
-
-Uninstallation
+Customization 
 --------------
+You can configure the cookie consent pop up within the magento admin at Admin -> Store -> Carlos Reynosa -> Osano Cookie Consent.
+
+Supported Customization Options
+-------------
+1. Change popup background color
+2. Change popup button background color
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/carlosreynosa/CarlosReynosa_OsanoCookieConsent/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent/issues).
 
 Contribution
 ------------
-Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent/pulls).
 
 Developer
 ---------
