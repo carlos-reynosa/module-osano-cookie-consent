@@ -1,16 +1,15 @@
+<?php
+/**
+ * @var $viewModel \CarlosReynosa\OsanoCookieConsent\Block\Init\Config
+ */
+$viewModel = $block->getViewModel();
+$config = $viewModel->getConfigJson();
+
+?>
 <script type="text/x-magento-init">
     {
         "*": {
-            "CarlosReynosa_OsanoCookieConsent/js/init": {
-                "palette": {
-                    "popup": {
-                        "background": "#000"
-                    },
-                    "button": {
-                        "background": "#f1d600"
-                    }
-                }
-            }
+            "CarlosReynosa_OsanoCookieConsent/js/init": <?= $config ?>
         }
     }
 </script>
