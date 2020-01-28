@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5]
+### Added
+
+- Added ability for admin to change cookie consent popup background color
+- Added ability for admin to change cookie consent popup button background color
+
 ## [1.0.4]
 - Changed javascript plugin initialization to be initiated by magento component. 
 
