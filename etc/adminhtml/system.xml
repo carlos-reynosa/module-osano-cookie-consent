@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="carlosreynosa">
+            <label>Carlos Reynosa</label>
+        </tab>
+        <section id="carlosreynosa_osano_cookie_consent" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Osano Cookie Consent</label>
+            <tab>carlosreynosa</tab>
+            <resource>CarlosReynosa_OsanoCookieConsent::config</resource>
+            <group id="palette" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                <label>Palette</label>
+                <field id="popup_background" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup Background Color</label>
+                    <config_path>carlos_reynosa/osano_cookie_consent/palette_popup_background</config_path>
+                    <comment>Any CSS valid color value.</comment>
+                </field>
+                <field id="popup_button_background" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Popup Button Background Color</label>
+                    <config_path>carlos_reynosa/osano_cookie_consent/palette_button_background</config_path>
+                    <comment>Any CSS valid color value.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

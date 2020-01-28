@@ -3,14 +3,8 @@
     <default>
         <carlos_reynosa>
             <osano_cookie_consent>
-                <palette>
-                    <popup>
-                        <background><![CDATA[#000]]></background>
-                    </popup>
-                    <button>
-                        <background><![CDATA[#f1d600]]></background>
-                    </button>
-                </palette>
+                <palette_popup_background><![CDATA[#000]]></palette_popup_background>
+                <palette_button_background><![CDATA[#f1d600]]></palette_button_background>
             </osano_cookie_consent>
         </carlos_reynosa>
     </default>
