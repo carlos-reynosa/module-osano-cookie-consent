@@ -19,22 +19,26 @@ Compatibility
 -------------
 - Magento >= 2.1
 
-Installation Instructions
+Composer Installation Instructions
 -------------------------
 
-1. Add repo to composer.json
+1. Add the extension via composer
 
-```composer config repositories.carlos-reynosa.module-osano-cookie-consent vcs https://github.com/carlos-reynosa/module-osano-cookie-consent.git```
+    `composer require carlos-reynosa/module-osano-cookie-consent`
 
-2. Require the extension
+2. Run Composer Update
 
-`composer require carlos-reynosa/module-osano-cookie-consent:1.0.5`
+    `composer update carlos-reynosa/module-osano-cookie-consent`
 
-3. Run Composer Update
+3. Enable the module
 
-`composer update carlos-reynosa/module-osano-cookie-consent`
+    `bin/magento module:enable CarlosReynosa_OsanoCookieConsent`
 
-4. Flush caches if needed 
+4. Run upgrade and flush caches
+
+    * `bin/magento setup:upgrade`
+    
+    * `bin/magento cache:flush`
 
 Customization 
 --------------
