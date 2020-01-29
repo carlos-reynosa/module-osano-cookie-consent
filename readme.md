@@ -4,7 +4,7 @@ Magento 2 Extension for the [Osano Cookie Consent Javascript plugin](https://www
 
 Facts
 -----
-- version: 1.0.5
+- version: 1.0.6
 - [Extension on GitHub](https://github.com/carlos-reynosa/module-osano-cookie-consent)
 - [Download Latest](https://github.com/carlos-reynosa/module-osano-cookie-consent/archive/master.zip)
 
