@@ -1,7 +1,15 @@
 {
     "name": "carlos-reynosa/module-osano-cookie-consent",
-    "description": "Magento 2 Extension for the Osano Cookie Consent plugin",
+    "description": "Magento 2 Extension for the Osano Cookie Consent plugin for help with compliance with privacy laws.",
     "type": "magento2-module",
+    "keywords": [
+        "cookie",
+        "privacy",
+        "gdpr",
+        "audit",
+        "consent",
+        "law"
+    ],
     "license": [
         "MIT License"
     ],
@@ -21,5 +29,5 @@
             "CarlosReynosa\\OsanoCookieConsent\\": ""
         }
     },
-    "version": "1.0.5"
+    "version": "1.0.6"
 }
