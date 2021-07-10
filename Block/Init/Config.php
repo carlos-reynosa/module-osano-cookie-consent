@@ -2,8 +2,6 @@
 
 namespace CarlosReynosa\OsanoCookieConsent\Block\Init;
 
-use Magento\Framework\App\Config\ScopeConfigInterface;
-use Magento\Framework\Serialize\Serializer\Json;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 
 /**
@@ -15,27 +13,23 @@ class Config implements ArgumentInterface
 {
     protected $scopeConfig;
     protected $jsonSerializer;
+    protected $helperData;
 
     /**
      * Config constructor.
-     * @param ScopeConfigInterface $scopeConfig
-     * @param Json $jsonSerializer
+     * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
+     * @param \Magento\Framework\Serialize\Serializer\Json $jsonSerializer
+     * @param \CarlosReynosa\OsanoCookieConsent\Helper\Data $helperData
      * TODO: Check jsonSerializer dependency
      */
-    public function __construct(ScopeConfigInterface $scopeConfig, Json $jsonSerializer)
-    {
+    public function __construct(
+        \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
+        \Magento\Framework\Serialize\Serializer\Json $jsonSerializer,
+        \CarlosReynosa\OsanoCookieConsent\Helper\Data $helperData
+    ) {
         $this->scopeConfig = $scopeConfig;
         $this->jsonSerializer = $jsonSerializer;
-    }
-
-    /**
-     * Return the plugin configuration.
-     *
-     * @return array js plugin inti configuration
-     */
-    public function getConfig()
-    {
-        return $this->scopeConfig->getValue('carlos_reynosa')['osano_cookie_consent'];
+        $this->helperData = $helperData;
     }
 
     /**
@@ -45,27 +39,44 @@ class Config implements ArgumentInterface
      */
     public function getConfigJson()
     {
-        $initConfig = $this->systemConfigToInitConfig($this->getConfig());
+        $initConfig = $this->systemConfigToInitConfig();
         return $this->jsonSerializer->serialize($initConfig);
     }
 
     /**
      * Convert system config values into array structure that can be easily turned into the js plugin init configuration
      *
-     * @param array $config Valid Osano Cooke Consent js plugin configuration for use with the init function.
      * @return array
      * @see https://www.osano.com/cookieconsent/documentation/javascript-api/
      */
-    protected function systemConfigToInitConfig(array $config)
+    protected function systemConfigToInitConfig()
     {
         return [
             'palette' => [
                 'popup' => [
-                    'background' => $config['palette_popup_background']
+                    'background' => $this->helperData->getAppearanceConfig('popup_background')
                 ],
                 'button' => [
-                    'background' => $config['palette_button_background']
+                    'background' => $this->helperData->getAppearanceConfig('popup_button_background')
                 ]
+            ],
+            'position' => $this->helperData->getAppearanceConfig('position'),
+            'theme' => $this->helperData->getAppearanceConfig('theme'),
+            'revokable' => $this->helperData->getGeneralConfig('revokable'),
+            'type' => $this->helperData->getGeneralConfig('type'),
+            'secure' => $this->helperData->getGeneralConfig('secure'),
+            'content' => [
+                'header'  => __('We use cookies to make your experience better.'),
+                'message' => __(
+                    'To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.'
+                ),
+                'dismiss' => __('Got it!'),
+                'allow'   => __('Allow Cookies'),
+                'deny'    => __('Deny'),
+                'link'    => __('Learn more'),
+                'href'    => $this->helperData->getGeneralConfig('href'),
+                'policy'  => __('Privacy and Cookie Policy'),
+                'target'  => '_blank'
             ]
         ];
     }

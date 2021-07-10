@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
-        <carlos_reynosa>
-            <osano_cookie_consent>
-                <palette_popup_background><![CDATA[#000]]></palette_popup_background>
-                <palette_button_background><![CDATA[#f1d600]]></palette_button_background>
-            </osano_cookie_consent>
-        </carlos_reynosa>
+        <carlosreynosa_osano_cookie_consent>
+            <general>
+                <revokable>1</revokable>
+                <secure>1</secure>
+                <href>https://www.cookiesandyou.com</href>
+                <type>info</type>
+            </general>
+            <appearance>
+                <theme>block</theme>
+                <popup_background><![CDATA[#1a3e5d]]></popup_background>
+                <popup_button_background><![CDATA[#ffffff]]></popup_button_background>
+                <position>bottom-left</position>
+            </appearance>
+        </carlosreynosa_osano_cookie_consent>
     </default>
 </config>

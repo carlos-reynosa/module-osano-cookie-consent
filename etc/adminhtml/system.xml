@@ -14,17 +14,43 @@
             <label>Osano Cookie Consent</label>
             <tab>carlosreynosa</tab>
             <resource>CarlosReynosa_OsanoCookieConsent::config</resource>
-            <group id="palette" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
-                <label>Palette</label>
-                <field id="popup_background" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+            <group id="general" translate="label" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                <label>General</label>
+                <field id="type" translate="label" type="select" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Compliance Level</label>
+                    <source_model>CarlosReynosa\OsanoCookieConsent\Model\Config\Source\Type</source_model>
+                    <comment><![CDATA[<a href="https://www.osano.com/cookieconsent/documentation/compliance/">Learn more</a>]]></comment>
+                </field>
+                <field id="revokable" translate="label" type="select" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Revokable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="secure" translate="label" type="select" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Only allow cookies over https</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="href" translate="label" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Cookie Policy Link</label>
+                </field>
+            </group>
+
+            <group id="appearance" translate="label" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                <label>Appearance</label>
+                <field id="theme" type="select" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Theme</label>
+                    <source_model>CarlosReynosa\OsanoCookieConsent\Model\Config\Source\Theme</source_model>
+                </field>
+                <field id="popup_background" translate="label comment" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
                     <label>Popup Background Color</label>
-                    <config_path>carlos_reynosa/osano_cookie_consent/palette_popup_background</config_path>
                     <comment>Any CSS valid color value.</comment>
                 </field>
-                <field id="popup_button_background" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
+                <field id="popup_button_background" translate="label comment" type="text" showInDefault="1" showInStore="1" showInWebsite="1">
                     <label>Popup Button Background Color</label>
-                    <config_path>carlos_reynosa/osano_cookie_consent/palette_button_background</config_path>
                     <comment>Any CSS valid color value.</comment>
+                </field>
+                <field id="position" translate="label" type="select" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Position</label>
+                    <source_model>CarlosReynosa\OsanoCookieConsent\Model\Config\Source\Position</source_model>
                 </field>
             </group>
         </section>
